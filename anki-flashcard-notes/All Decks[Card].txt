@@ -1,0 +1,36 @@
+basic problem layout	1. constraints<br />2. idea<br />3. temporal and spacial complexities<br />4. code<br />5. test cases
+compiler generates what type of code?	machine instruction code
+only optimazting the compilers can not influence the generated code to great details. why?&nbsp;	because generated code depends upon the source code as well, the memory usage and data structures used to implement those [what drive the s/w] are also important to note beforehand
+why s/w engi. is essential to product development?	s/w should have a documentation as well as it should be written in a way that could be read by everyone else with giving away how the s/w works and what variable means what
+every s/w should be throughly tested for bugs and other issues. why?	a throughly tested code is necessary and essential to product development. plus, debugging is important as well.
+<div>if you’re not writing efficient code, you’re not writing&nbsp;great code. why?</div>	memory must be saved and the code should execute in minimal time. this could be implemented by optimising compiler [card 1] as well as by improving the code itself.
+what is machine organization?	it is a subset of computer architecture. defines why the computer arctitect chose a given computer design for implementation.
+what is machine organisation? [mine]	it is that part of computer architecture which defines how a given computer is organised, i.e., how each underlying parts (s/w + h/w) work with each other to provide a platform for an end-user to run commands, execute programs, etc.
+values are important to computer. why?	because it is important to note that how a value (not categoried into types) is represented inside a computer. the type of that value could influence in size of the value but the representation remains similar and vital to the machine.
+arithmetic and logical statments are part of...	writing efficient code
+each data type must be wisely used. why?	because every data type is implmenented differently on low-level (h/w) and could produce heavy cost [memory and runtime] to the code if implmented inefficiently.&nbsp;
+each machine instruction executes differently from other. why?&nbsp;	due to it's nature of implementation [how the computer designer designed the instructions to execute]
+machine instructions and I/O are limited. why?	because every resource at disposal depends on how it is being used by the endusers and the machine itself. proper distribution [or a similar setup] is essential.
+guidelines for a great code...	- fast<div>- small/concise</div><div>- reliable/robust/debugged</div><div>- readable and expendable</div><div>- properly documented</div><div>- follows language style standards</div><div>- follows soft. engi. guidelines for design</div>
+what is a great code?	- written using good s/w characterstics<div>- must follow the rules set by the programmer while implemeting an algorithm as source code</div>
+goal of s/w...	goal of any s/w determines if the code written is good or bad. that could depend on the environment of the s/w being used in [or written for].
+what is a s/w?	any program written to be used by customers and could be serviced and supported from time to time.
+what's different b/w s/w in web and s/w in web2.0?	web 2.0 will bring remote s/w setup [portability] and will provide more robust methofds to run a s/w w/o installing it on a physical machine. [like pythonanywhere platform]
+why s/w engi. is important?	enables us to provide high quality s/w in a timely manner.
+what constitute SE?	- a process<div>- a set of methods</div><div>- an array of tools</div>
+SE is a...	framework.
+a s/w is a product and a...	carrier of that product.
+failure rate as a function of time...	bathtub curve
+s/w wears out or not?	no it doesn't. it's performance deteriorates. its what h/w is who's performance 'wears' out.
+s/w performance changes with h/w changes. true or false?	yes it does deteriorates. due to h/w changes, periodically the s/w undergoes performance degredation.
+s/w maintainence &gt; h/w&nbsp;maintainence. true or false?	true
+preprocessor phase has...	- inclusion of macros<div>- conditional compilation</div><div>- source files</div>
+c is low level language. kinda. why?	because c does basic machine work. like processing chars, numbers and addresses.&nbsp;
+READ WRITE	no. that is extended in high level langs like c++. there is not file i/o in c,
+READ WRITE 2	c does not has a default support to file i/o but it supports external fxs built for this in several implementations.
+workflow: single thread or multithread?	singlethreaded sequential.
+in ansi c [standard c], fxs support argument description. true of false?	true
+ansi c provided support to external os service s like file i/o and device perminssions. true or false?	true.
+ansi c's addition of external runtime libs for support to os services was provided to a program by...	implementing the fxs defined in the library explicitly on use. so these runtime libs provide flexibility to them fxs being used as per requirement.
+c is portable wrt architecture of the underlying machine. true of false?	true.
+explicit type conversions are rquired in modern c. yes or no?	yes. though original c supported pointer to interger assignment w/o type conversions. ansi c brought explicit type conversions [strictness] to that op.
