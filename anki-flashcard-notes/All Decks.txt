@@ -34,3 +34,11 @@ ansi c provided support to external os service s like file i/o and device permin
 ansi c's addition of external runtime libs for support to os services was provided to a program by...	implementing the fxs defined in the library explicitly on use. so these runtime libs provide flexibility to them fxs being used as per requirement.	c-lang
 c is portable wrt architecture of the underlying machine. true of false?	true.	c-lang
 explicit type conversions are rquired in modern c. yes or no?	yes. though original c supported pointer to interger assignment w/o type conversions. ansi c brought explicit type conversions [strictness] to that op.	c-lang
+asymptotic notations provide...	upper and lower bound to any function	algorithms
+what is an algorithm?	a computational procedure involving inputs to be taken hence producing output out of it. ie., it is a procedure involving computations over input to produce output	algorithms
+an algorithm is a tool to solve a computational problem. true or false?	true	algorithms
+correct algorithms halt at very instance of input passed. true or false.	true.	algorithms
+data structures?	a way to store dat in a organised way so that it could be used and modified gracefully at a later point of time.	algorithms
+running time of an algorithm depends heavily over the order of execution of statments at each step. true or false?	true.	
+n.lgn &gt;&gt; n^2<br />slow compiler &gt;&gt; fast compiler<div><br /></div><div>which one runs faster?</div>	one with order n.lgn	algorithms
+however clean the setup is, the data structures used underneath should be implemented so as to take up least runtime and memory. true or false?	true	algorithms
