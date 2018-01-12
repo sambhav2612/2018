@@ -35,6 +35,25 @@ My 2018 worklog.
 │   ├── WhatsApp Image 2018-01-03 at 9.13.20 AM.jpeg
 │   ├── WhatsApp Image 2018-01-03 at 9.13.30 AM.jpeg
 │   └── WhatsApp Image 2018-01-03 at 9.13.36 AM.jpeg
-└── README.md
-
+├── README.md
+└── strings-gfg
+    ├── arrayDecay
+    ├── arrayDecay.cpp
+    ├── creverse
+    ├── creverse.c
+    ├── cstring1
+    ├── cstring1.c
+    ├── cstring2
+    ├── cstring2.cpp
+    ├── pangram
+    ├── pangram.cpp
+    ├── pystrings1.py
+    ├── remove-dups
+    ├── remove-dups.cpp
+    ├── stringDecay
+    ├── stringDecay.cpp
+    ├── string-rev-no-special-chars
+    ├── string-rev-no-special-chars.cpp
+    ├── wordReverse
+    └── wordReverse.c
 ```
