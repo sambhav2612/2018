@@ -2,7 +2,7 @@
 My 2018 worklog.
 
 ## New projects being undertaken:
-- <a href="https://github.com/sambhav2612/simple-api" target="_blank">simple-api</a>: An API written in JSON and used in JavaScript.  
+- <a href="https://github.com/sambhav2612/simple-api" target="_blank">simple-api</a>: An API written in JSON and used in JavaScript.
 - ...
 
 ## Projects being continued from 2017:
@@ -10,7 +10,7 @@ My 2018 worklog.
 - <a href="https://github.com/sambhav2612/sambhav2612.github.io" target="_blank">sambhav2612.github.io</a>: My personal website/blog-site.
 - ...
 
-Repository Tree:
+### Repository Tree:
 ```
 .
 ├── anki-flashcard-notes
