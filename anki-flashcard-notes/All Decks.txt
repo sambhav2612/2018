@@ -42,3 +42,19 @@ data structures?	a way to store dat in a organised way so that it could be used 
 running time of an algorithm depends heavily over the order of execution of statments at each step. true or false?	true.	
 n.lgn &gt;&gt; n^2<br />slow compiler &gt;&gt; fast compiler<div><br /></div><div>which one runs faster?</div>	one with order n.lgn	algorithms
 however clean the setup is, the data structures used underneath should be implemented so as to take up least runtime and memory. true or false?	true	algorithms
+what is a database?	a logically related collection of data where the word 'logic' is of prime importance.	db
+what is data?	a record being kept/recorded with an implicit meaning.	db
+database is a entity related to the real-world, so that when changes take place in real, they also do in database. true or false?	true.	db
+database is a collection of logically coherent data carrying an inherent meaning. true or false?	true.	db
+database has to meaning to its creation. a userbase intended to that reason and set of applications to follow. true or false?	true.	db
+database is a reflection to some real-world entity it simulates in itself. so whenever that entity changes, the db should update its content asap. true or false?	true.	db
+db should be designed to portray some real-world entity in a efficient yet fast manner so that it updates itself acc to that entity. true or false?	true.	db
+databases can be operated manually and through programs. true or false?	true.	db
+database management system/dbms is a set of general-purpose s/w available to a user to define, create, manage and share the database among various users and applications. true or false?	true.	db
+what is meta-data?	description stored by dbms	db
+db def invloves..	&gt; data types<div>&gt; constraints to data</div><div>&gt; structures</div>	db
+constructing db invloves writing entires in a storage area that is controlled by the dbms. true or false?	true.	db
+mangaement of db includes querying and updation of data in db. true or false?	true.	db
+sharing of db allows it to be used by various users and applications simultaneously. true or false?	true.	db
+a query is sent to access the db by some application to the dbms s/w. some retrieval transaction may follow. true or false?	true.	db
+databases work through relationships shared by its data. true or false?	true.	db

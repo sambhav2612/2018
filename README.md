@@ -33,6 +33,7 @@ My 2018 worklog.
 ├── ebooks
 │   ├── Algorithhms 4th Edition by Robert Sedgewick, Kevin Wayne.pdf
 │   ├── [Cormen-AL2011]Introduction_To_Algorithms-A3
+│   ├── databases-ramaz.pdf
 │   ├── Software-Engineering 7th ED by Roger S. Pressman
 │   ├── the_c_programming_language_2.pdf
 │   ├── write_great_code_volume_1.pdf
