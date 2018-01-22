@@ -29,11 +29,16 @@ My 2018 worklog.
 │   ├── galaxy-of-stars
 │   ├── galaxy-of-stars.cpp
 │   ├── kth-level
-│   └── kth-level.cpp
+│   ├── kth-level.cpp
+│   └── merge-linked-list.cpp
 ├── ebooks
 │   ├── Algorithhms 4th Edition by Robert Sedgewick, Kevin Wayne.pdf
 │   ├── [Cormen-AL2011]Introduction_To_Algorithms-A3
 │   ├── databases-ramaz.pdf
+│   ├── Learning Node.pdf
+│   ├── mastering-bitcoin.pdf
+│   ├── Mastering Node.js.pdf
+│   ├── Node.js in Action.pdf
 │   ├── Software-Engineering 7th ED by Roger S. Pressman
 │   ├── the_c_programming_language_2.pdf
 │   ├── write_great_code_volume_1.pdf
