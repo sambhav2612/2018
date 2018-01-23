@@ -5,6 +5,7 @@ My 2018 worklog.
 ## New projects being undertaken
 
 - <a href="https://github.com/sambhav2612/simple-api" target="_blank">simple-api</a>: An API written in JSON and used in JavaScript.
+- <a href="https:/github.com/sambhav2612/pdo" target="_blank">pdo</a>: A CRUD Application written in PHP and implemented in MySQL (phpMyAdmin)
 - ...
 
 ## Projects being continued from 2017
@@ -35,6 +36,7 @@ My 2018 worklog.
 │   ├── Algorithhms 4th Edition by Robert Sedgewick, Kevin Wayne.pdf
 │   ├── [Cormen-AL2011]Introduction_To_Algorithms-A3
 │   ├── databases-ramaz.pdf
+│   ├── Fundamentals of Database Systems - Ramez Elmasri & Navathe.pdf
 │   ├── Learning Node.pdf
 │   ├── mastering-bitcoin.pdf
 │   ├── Mastering Node.js.pdf
@@ -44,6 +46,24 @@ My 2018 worklog.
 │   ├── write_great_code_volume_1.pdf
 │   └── write_great_code_volume_2.pdf
 ├── LICENSE
+├── pdo
+│   ├── common.php
+│   ├── config.php
+│   ├── create.php
+│   ├── css
+│   │   └── index.css
+│   ├── data
+│   │   └── init.sql
+│   ├── index.php
+│   ├── install.php
+│   ├── LICENSE
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md
+│   ├── read.php
+│   └── templates
+│       ├── footer.php
+│       └── header.php
 ├── photos
 │   ├── WhatsApp Image 2018-01-03 at 9.13.04 AM.jpeg
 │   ├── WhatsApp Image 2018-01-03 at 9.13.10 AM.jpeg
