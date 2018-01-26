@@ -46,24 +46,6 @@ My 2018 worklog.
 │   ├── write_great_code_volume_1.pdf
 │   └── write_great_code_volume_2.pdf
 ├── LICENSE
-├── pdo
-│   ├── common.php
-│   ├── config.php
-│   ├── create.php
-│   ├── css
-│   │   └── index.css
-│   ├── data
-│   │   └── init.sql
-│   ├── index.php
-│   ├── install.php
-│   ├── LICENSE
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── README.md
-│   ├── read.php
-│   └── templates
-│       ├── footer.php
-│       └── header.php
 ├── photos
 │   ├── WhatsApp Image 2018-01-03 at 9.13.04 AM.jpeg
 │   ├── WhatsApp Image 2018-01-03 at 9.13.10 AM.jpeg
