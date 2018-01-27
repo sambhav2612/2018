@@ -4,17 +4,15 @@ My 2018 worklog.
 
 ## New projects being undertaken
 
-- <a href="https://github.com/sambhav2612/simple-api" target="_blank">simple-api</a>: An API written in JSON and used in JavaScript.
-- <a href="https://github.com/sambhav2612/pdo" target="_blank">pdo</a>: A CRUD Application written in PHP and implemented in local MySQL
-- <a href="https://github.com/sambhav2612/staticgen" target="_blank">staticgen</a>: A simple NodeJS application to build/generate static webpages from markdown files.
-- <a href="https://github.com/sambhav2612/se-project" target="_blank">se-project</a>: My s/w engineering project on railway information portal. Repository content mainly contains web data for the website.
-- ...
+- [simple-api](https://github.com/sambhav2612/simple-api): An API written in JSON and used in JavaScript.
+- [pdo](https://github.com/sambhav2612/pdo): A CRUD Application written in PHP and implemented in MySQL
+- [staticgen](https://github.com/sambhav2612/staticgen): A simple NodeJS application to build/generate static webpages from markdown files.
+- [se-project](https://github.com/sambhav2612/se-project): My s/w engineering project on railway information portal. Repository content mainly contains web data for the website.
 
 ## Projects being continued from 2017
 
-- <a href="https://github.com/sambhav2612/librecad" target="_blank">librecad</a>: A static LibreCAD website clone 
-- <a href="https://github.com/sambhav2612/sambhav2612.github.io" target="_blank">sambhav2612.github.io</a>: My personal website/blog-site.
-- ...
+- [librecad](https://github.com/sambhav2612/librecad): A static LibreCAD website clone
+- [sambhav2612.github.io](https://github.com/sambhav2612/sambhav2612.github.io): My personal website/blog-site.
 
 ### Repository Tree
 
