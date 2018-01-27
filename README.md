@@ -6,6 +6,7 @@ My 2018 worklog.
 
 - <a href="https://github.com/sambhav2612/simple-api" target="_blank">simple-api</a>: An API written in JSON and used in JavaScript.
 - <a href="https:/github.com/sambhav2612/pdo" target="_blank">pdo</a>: A CRUD Application written in PHP and implemented in MySQL (phpMyAdmin)
+- <a href="https:/github.com/sambhav2612/staticgen" target="_blank">staticgen</a>: A simple NodeJS application to build/generate static webpages from markdown files.
 - ...
 
 ## Projects being continued from 2017
@@ -31,7 +32,11 @@ My 2018 worklog.
 │   ├── galaxy-of-stars.cpp
 │   ├── kth-level
 │   ├── kth-level.cpp
-│   └── merge-linked-list.cpp
+│   ├── merge-linked-list.cpp
+│   ├── node-level
+│   ├── node-level.cpp
+│   ├── string-manipulation
+│   └── string-manipulation.cpp
 ├── ebooks
 │   ├── Algorithhms 4th Edition by Robert Sedgewick, Kevin Wayne.pdf
 │   ├── [Cormen-AL2011]Introduction_To_Algorithms-A3
