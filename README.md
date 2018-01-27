@@ -5,8 +5,8 @@ My 2018 worklog.
 ## New projects being undertaken
 
 - <a href="https://github.com/sambhav2612/simple-api" target="_blank">simple-api</a>: An API written in JSON and used in JavaScript.
-- <a href="https:/github.com/sambhav2612/pdo" target="_blank">pdo</a>: A CRUD Application written in PHP and implemented in MySQL (phpMyAdmin)
-- <a href="https:/github.com/sambhav2612/staticgen" target="_blank">staticgen</a>: A simple NodeJS application to build/generate static webpages from markdown files.
+- <a href="https://github.com/sambhav2612/pdo" target="_blank">pdo</a>: A CRUD Application written in PHP and implemented in local MySQL
+- <a href="https://github.com/sambhav2612/staticgen" target="_blank">staticgen</a>: A simple NodeJS application to build/generate static webpages from markdown files.
 - ...
 
 ## Projects being continued from 2017
