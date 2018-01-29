@@ -62,6 +62,38 @@ void heap_sort(int arr[], int size) {
     }
 }
 
+int heap_maximum(int arr[]) {
+    return arr[0];
+}
+
+int heap_extract_max(int arr[], int size) {
+    if (size < 1) {
+        cout << "Error: heap underflow";
+    }
+    int max = arr[0];
+    arr[0] = arr[size-1];
+    size = size - 1;
+    max_heapify(arr, 0, size);
+    return max;
+}
+
+void heap_increase_key(int arr[], int index, int key) {
+    if (key < arr[index]) {
+        cout << "Error: new key is smaller than the surrent key";
+    }
+    arr[index] = key;
+    while(index > 0 & arr[arr[index/2-1]] < arr[index]) {
+        swap(arr[index], arr[arr[index/2-1]]);
+        index = arr[index/2-1];
+    }
+}
+
+void heap_insert(int arr[], int key, int size) {
+    size = size - 1;
+    arr[size-1] = -32667;
+    heap_increase_key(arr, size-1, key);
+}
+
 int main () {
     system("clear");
 
