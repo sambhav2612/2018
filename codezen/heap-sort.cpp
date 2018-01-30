@@ -11,6 +11,7 @@ carry out heap sort method
 using namespace std;
 
 int comparisons = 0;
+#define INT_MIN -32657;
 
 // max heapify procedure
 void max_heapify(int arr[], int index, int size) {
@@ -82,22 +83,21 @@ void heap_increase_key(int arr[], int index, int key) {
         cout << "Error: new key is smaller than the surrent key";
     }
     arr[index] = key;
-    while(index > 0 & arr[arr[index/2-1]] < arr[index]) {
-        swap(arr[index], arr[arr[index/2-1]]);
+    while(index > 0 & arr[arr[index/2]] < arr[index]) {
+        swap(arr[index], arr[arr[index/2]]);
         index = arr[index/2-1];
     }
 }
 
 void heap_insert(int arr[], int key, int size) {
-    size = size - 1;
-    arr[size-1] = -32667;
+    arr[size-1] = INT_MIN;
     heap_increase_key(arr, size-1, key);
 }
 
 int main () {
     system("clear");
 
-    int arr[] = {0, 12, 3, 45};
+    int arr[] = {0, 12, 3, 45, 6, 78, 9};
     int size = sizeof(arr)/sizeof(arr[0]);
 
     cout << endl << "Unsorted array: ";
@@ -112,6 +112,17 @@ int main () {
         cout << arr[i] << " ";
     }
     cout << endl << "Number of comparisons for this procedure: " << comparisons << endl;
+
+    int x = 0;
+    cout << "Enter a number to insert in the heap: ";
+    cin >> x;
+
+    heap_insert(arr, x, size);
+
+    cout << endl << "Heap after insertion: ";
+    for (int i = 0; i < size; ++i) {
+        cout << arr[i] << " ";
+    }
 
     return 0;
 }
