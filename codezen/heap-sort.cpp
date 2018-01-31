@@ -21,15 +21,19 @@ void max_heapify(int arr[], int index, int size) {
 
     if (left < size & arr[left] > arr[largest]) {
         largest = left;
-        ++comparisons;
+        comparisons++;
     } else {
         largest = index;
-        ++comparisons;
+        if (left < size)
+            comparisons++;
     }
 
     if (right < size & arr[right] > arr[largest]) {
         largest = right;
-        ++comparisons;
+        comparisons++;
+    } else {
+        if (right < size)
+            comparisons++;
     }
 
     if (largest != index) {
@@ -63,6 +67,7 @@ void heap_sort(int arr[], int size) {
     }
 }
 
+/*
 int heap_maximum(int arr[]) {
     return arr[0];
 }
@@ -85,34 +90,38 @@ void heap_increase_key(int arr[], int index, int key) {
     arr[index] = key;
     while(index > 0 & arr[arr[index/2]] < arr[index]) {
         swap(arr[index], arr[arr[index/2]]);
-        index = arr[index/2-1];
+        index = arr[in, 3, 45, 6, 78, dex/2-1];
     }
 }
 
 void heap_insert(int arr[], int key, int size) {
-    arr[size-1] = INT_MIN;
+    arr[size] = INT_MIN;
     heap_increase_key(arr, size-1, key);
+}
+*/
+
+void print_array(int arr[], int size) {
+    for (int i = 0; i < size; ++i) {
+        cout << arr[i] << " ";
+    }
 }
 
 int main () {
     system("clear");
 
-    int arr[] = {0, 12, 3, 45, 6, 78, 9};
+    int arr[] = {12, 3, 45, 6, 78, 9, 1011, 12, 1314, 15};
     int size = sizeof(arr)/sizeof(arr[0]);
 
     cout << endl << "Unsorted array: ";
-    for (int i = 0; i < size; ++i) {
-        cout << arr[i] << " ";
-    }
+    print_array(arr, size);
 
     heap_sort(arr, size);
 
     cout << endl << "Sorted array: ";
-    for (int i = 0; i < size; ++i) {
-        cout << arr[i] << " ";
-    }
+    print_array(arr, size);
     cout << endl << "Number of comparisons for this procedure: " << comparisons << endl;
 
+    /*
     int x = 0;
     cout << "Enter a number to insert in the heap: ";
     cin >> x;
@@ -120,9 +129,10 @@ int main () {
     heap_insert(arr, x, size);
 
     cout << endl << "Heap after insertion: ";
-    for (int i = 0; i < size; ++i) {
-        cout << arr[i] << " ";
-    }
+    print_array(arr, size);
+
+    cout << endl;
+    */
 
     return 0;
 }
