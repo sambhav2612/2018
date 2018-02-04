@@ -36,19 +36,39 @@ My 2018 worklog.
 │   ├── merge-linked-list.cpp
 │   ├── node-level
 │   ├── node-level.cpp
+│   ├── rbtree-insert.cpp
 │   ├── string-manipulation
 │   └── string-manipulation.cpp
+├── codingbat
+│   ├── backAround.java
+│   ├── close10.java
+│   ├── delDel.java
+│   ├── endUp.java
+│   ├── everyNth.java
+│   ├── front22.java
+│   ├── front3.java
+│   ├── frontBack.java
+│   ├── hasTeen.java
+│   ├── icyHot.java
+│   ├── in1020.java
+│   ├── in3050.java
+│   ├── intMax.java
+│   ├── lastDigit.java
+│   ├── loneTeen.java
+│   ├── max1020.java
+│   ├── missingchar.java
+│   ├── mixStart.java
+│   ├── notString.java
+│   ├── or35.java
+│   ├── startHi.java
+│   ├── startOz.java
+│   └── stringE.java
 ├── css
 │   └── style.css
 ├── ebooks
 │   ├── Algorithhms 4th Edition by Robert Sedgewick, Kevin Wayne.pdf
 │   ├── [Cormen-AL2011]Introduction_To_Algorithms-A3
 │   ├── databases-ramaz.pdf
-│   ├── Fundamentals of Database Systems - Ramez Elmasri & Navathe.pdf
-│   ├── Learning Node.pdf
-│   ├── mastering-bitcoin.pdf
-│   ├── Mastering Node.js.pdf
-│   ├── Node.js in Action.pdf
 │   ├── Software-Engineering 7th ED by Roger S. Pressman
 │   ├── the_c_programming_language_2.pdf
 │   ├── write_great_code_volume_1.pdf
