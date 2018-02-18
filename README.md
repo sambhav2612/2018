@@ -8,7 +8,7 @@ My 2018 worklog.
 - [pdo](https://github.com/sambhav2612/pdo): A CRUD Application written in PHP and implemented in MySQL
 - [staticgen](https://github.com/sambhav2612/staticgen): A simple NodeJS application to build/generate static webpages from markdown files.
 - [se-project](https://github.com/sambhav2612/se-project): My s/w engineering project on railway information portal. Repository content mainly contains web data for the website.
-- [nodejs-weather-app](https://github.com/sambhav2612/nodejs-weather-app): A simple command-line based app in node.
+- [nodejs-weather-app](https://github.com/sambhav2612/nodejs-weather-app): A simple command-line based app in node. Uses OpenWeather API.
 
 ## Projects being continued from 2017
 
