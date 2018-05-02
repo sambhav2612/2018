@@ -3,7 +3,6 @@ carry out heap sort method
 > max-heapify
 > build-max-heap
 > heap-sort
-> heap-insert
 */
 
 #include <iostream>
@@ -11,7 +10,6 @@ carry out heap sort method
 using namespace std;
 
 int comparisons = 0;
-#define INT_MIN -32657;
 
 // max heapify procedure
 void max_heapify(int arr[], int index, int size) {
@@ -32,6 +30,7 @@ void max_heapify(int arr[], int index, int size) {
         largest = right;
         comparisons++;
     } else {
+        largest = index;
         if (right < size)
             comparisons++;
     }
@@ -67,39 +66,6 @@ void heap_sort(int arr[], int size) {
     }
 }
 
-/*
-int heap_maximum(int arr[]) {
-    return arr[0];
-}
-
-int heap_extract_max(int arr[], int size) {
-    if (size < 1) {
-        cout << "Error: heap underflow";
-    }
-    int max = arr[0];
-    arr[0] = arr[size-1];
-    size = size - 1;
-    max_heapify(arr, 0, size);
-    return max;
-}
-
-void heap_increase_key(int arr[], int index, int key) {
-    if (key < arr[index]) {
-        cout << "Error: new key is smaller than the surrent key";
-    }
-    arr[index] = key;
-    while(index > 0 & arr[arr[index/2]] < arr[index]) {
-        swap(arr[index], arr[arr[index/2]]);
-        index = arr[in, 3, 45, 6, 78, dex/2-1];
-    }
-}
-
-void heap_insert(int arr[], int key, int size) {
-    arr[size] = INT_MIN;
-    heap_increase_key(arr, size-1, key);
-}
-*/
-
 void print_array(int arr[], int size) {
     for (int i = 0; i < size; ++i) {
         cout << arr[i] << " ";
@@ -120,19 +86,6 @@ int main () {
     cout << endl << "Sorted array: ";
     print_array(arr, size);
     cout << endl << "Number of comparisons for this procedure: " << comparisons << endl;
-
-    /*
-    int x = 0;
-    cout << "Enter a number to insert in the heap: ";
-    cin >> x;
-
-    heap_insert(arr, x, size);
-
-    cout << endl << "Heap after insertion: ";
-    print_array(arr, size);
-
-    cout << endl;
-    */
 
     return 0;
 }
